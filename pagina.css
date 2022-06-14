@@ -1,0 +1,134 @@
+.flex-container {
+  padding: 50px;
+}
+
+.flex-container .prueba1 .textos {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-container .prueba1 {
+  display: flex;
+}
+.flex-container .texto1 {
+  font-family: Calibri;
+  color: #6400a1;
+  width: 350px;
+}
+
+.flex-container .texto2 {
+  font-family: Arial;
+  color: #2e0249;
+  width: 500px;
+}
+.flex-container .cuerpostars {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 5px;
+  margin-top: 30px;
+}
+
+.stars {
+  display: flex;
+  align-items: center;
+  height: 40px;
+  margin-bottom: 10px;
+  margin-left: 100px;
+  background-color: #eeedee;
+  width: 440px;
+  border-radius: 15px;
+}
+
+.flex-container .cuerpostars .stars2 {
+  display: flex;
+  align-items: center;
+  margin-left: 120px;
+  height: 40px;
+  margin-bottom: 10px;
+  background-color: #eeedee;
+  width: 440px;
+  border-radius: 15px;
+}
+
+.flex-container .cuerpostars .stars3 {
+  display: flex;
+  margin-left: 150px;
+  align-items: center;
+  background-color: #eeedee;
+  width: 440px;
+  border-radius: 15px;
+}
+
+button {
+  color: goldenrod;
+  border-style: none;
+  background-color: #eeeeee;
+}
+
+.flex-container .cuerpostars p {
+  color: #2e0249;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  margin-left: 10px;
+}
+
+.flex-container img {
+  height: 50px;
+  border-radius: 50px;
+  margin-right: 25px;
+}
+.flex-container .opiniones {
+  display: flex;
+  flex-direction: row;
+  margin-top: 80px;
+  width: 70em;
+  margin-left: 50px;
+}
+
+.flex-container .opiniones .opinion1 {
+  margin-right: 10px;
+  padding: 5px;
+  background-color: #3f0463;
+  border-radius: 10px;
+  padding: 15px;
+}
+.flex-container .opiniones .opinion2 {
+  margin-right: 10px;
+  padding: 5px;
+  background-color: #3f0463;
+  border-radius: 10px;
+  padding: 15px;
+}
+.flex-container .opiniones .opinion3 {
+  margin-right: 10px;
+  padding: 5px;
+  background-color: #3f0463;
+  border-radius: 10px;
+  padding: 15px;
+}
+
+.flex-container .opiniones h2 {
+  color: white;
+  font-size: 18px;
+  font-family: Calibri;
+  margin-bottom: 10px;
+  display: flex;
+}
+
+.flex-container .opiniones span {
+  color: rgb(202, 22, 112);
+  font-size: 18px;
+  font-family: Calibri;
+}
+
+.flex-container .opiniones p {
+  color: white;
+  font-size: 15px;
+  font-family: Calibri;
+}
+
+.flex-container .opiniones .fotos {
+  display: flex;
+  align-items: center;
+}
